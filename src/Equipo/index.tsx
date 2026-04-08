@@ -1,10 +1,13 @@
-function Equipo() {
+import { useParams } from 'react-router';
 
+
+function Equipo() {
+       const { equipo } = useParams<{ equipo: string }>()
     return (
         
         <>
         
-        <p>Equipo</p>
+        <p>{equipo}</p>
 
         </>
     )

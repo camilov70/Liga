@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router';
 
-import Home from 
+import Home from './Home'
 import Informativa from  './Informativa'
 import Original from './Original'
 import Usuario from './Usuario'
@@ -10,9 +10,9 @@ import Equipo from './Equipo';
 
 import './App.css'
 
-function App() {
+
  
-    function App() {
+    function App () {
 
   return (
     <>
@@ -36,10 +36,6 @@ function App() {
     </Router>
     </>
   )
-}
-
-export default App
-  
 }
 
 export default App
