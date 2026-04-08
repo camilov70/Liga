@@ -54,7 +54,7 @@ function Equipo() {
   if (!data) return <p>Cargando...</p>;   
    return (
         
-        <>
+        <>¡
         
         <p>{data.team.name}</p>
         <p>{data.team.info.city}</p>
